@@ -1,6 +1,5 @@
 import random
 n = random.randint(0,100)
-g = int(input("guess the number from 1-100: "))
 
 while(True):
     g = int(input("guess the number from 1-100: "))
