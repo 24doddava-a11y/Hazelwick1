@@ -1,10 +1,11 @@
-
-while(t == 0):
+while(True):
     t = int(input("Enter the number of hours you have parked for: "))
-    cost = t * 4
+    c = t * 4
+    if t == 0:
+        break
     car = input("Is your car electric? ")
     if car == "yes":
-        cost = cost / 2
-        print("£",cost)
+        c = c / 2
+        print("£",c)
     else:
-        print("£",cost)
+        print("£",c)
