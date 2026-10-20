@@ -14,4 +14,4 @@ while(count < 8):
     else:
         print("You aren't allowed to ride.")
 
-print("The ride is full. Please wait for the next ride .")
+#print("The ride is full. Please wait for the next ride .")
