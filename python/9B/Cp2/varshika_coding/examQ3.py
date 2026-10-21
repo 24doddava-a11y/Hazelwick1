@@ -1,6 +1,7 @@
 A = 0
 B = 0
 C = 0
+ran = 0
 while(True):
     v = input("vote A, B or C ")
     if v == "a" or v == "A":
@@ -14,3 +15,5 @@ while(True):
         print("B =",B)
         print("C =",C)
         break
+    else:
+        ran = ran + 1
