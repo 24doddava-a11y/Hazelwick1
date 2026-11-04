@@ -10,3 +10,5 @@ while n != g:
     else:
         print("too high")
         g = int(input("guess the number from 1-100: "))
+
+# not completed yet
